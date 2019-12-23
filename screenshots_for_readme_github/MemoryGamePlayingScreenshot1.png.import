@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BackgroundGray.png-59dcfd585044d6d70257aa4b8ae462a9.stex"
+path="res://.import/MemoryGamePlayingScreenshot1.png-55c022559abf295ef8ccbe0f8f07bae1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/BackgroundGray.png"
-dest_files=[ "res://.import/BackgroundGray.png-59dcfd585044d6d70257aa4b8ae462a9.stex" ]
+source_file="res://screenshots_for_readme_github/MemoryGamePlayingScreenshot1.png"
+dest_files=[ "res://.import/MemoryGamePlayingScreenshot1.png-55c022559abf295ef8ccbe0f8f07bae1.stex" ]
 
 [params]
 
