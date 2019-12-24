@@ -28,11 +28,11 @@ func _ready():
 	card_two_string = "Card 2"
 	last_try_was_pair = false
 	
-	default_image = preload("res://sprites/dandelion-flower.png")
+	default_image = preload("res://sprites/image0.jpeg")
 	
-	image1 = preload("res://pictures/pic_001.png")
+	image1 = preload("res://sprites/image1.png")
 	name_image1 = "Tree"
-	image2 = preload("res://pictures/pic_002.png")
+	image2 = preload("res://sprites/image2.png")
 	name_image2 = "Desert"
 	randomize()
 	init = false

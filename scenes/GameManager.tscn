@@ -21,6 +21,10 @@ font_data = ExtResource( 4 )
 [node name="GameManger" type="Node2D"]
 position = Vector2( 90, 0 )
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 133.984, 510.71 ],
+"_edit_vertical_guides_": [ 525.657, 1008.55 ]
+}
 
 [node name="Card1" type="Area2D" parent="."]
 position = Vector2( 520.478, 246.807 )
@@ -28,25 +32,26 @@ scale = Vector2( 0.3, 0.3 )
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="Card1"]
-position = Vector2( -269.574, -392.64 )
-scale = Vector2( 2, 2 )
+position = Vector2( -226.355, -372.82 )
 texture = ExtResource( 3 )
 centered = false
-region_rect = Rect2( 0, 0, 10, 10 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 1024, 1024 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Card1"]
 position = Vector2( 240.272, 123.066 )
 shape = SubResource( 1 )
 
 [node name="Card2" type="Area2D" parent="."]
-position = Vector2( 1267.67, 396.92 )
+position = Vector2( 1281.37, 386.646 )
 scale = Vector2( 0.3, 0.3 )
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="Card2"]
 position = Vector2( -714.956, -345.757 )
-scale = Vector2( 2.00724, 2.00724 )
 texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 1024, 1024 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Card2"]
 position = Vector2( -720.816, -351.617 )
@@ -59,22 +64,24 @@ script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="Card3"]
 position = Vector2( -2256.21, 269.573 )
-scale = Vector2( 1.89278, 1.89278 )
 texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 1024, 1024 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Card3"]
-position = Vector2( -2256.21, 275.434 )
+position = Vector2( -2233.38, 286.85 )
 shape = SubResource( 1 )
 
 [node name="Card4" type="Area2D" parent="."]
-position = Vector2( 1267.67, 756.92 )
+position = Vector2( 1274.52, 746.646 )
 scale = Vector2( 0.3, 0.3 )
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="Card4"]
 position = Vector2( -659.283, -295.945 )
-scale = Vector2( 1.9729, 1.9729 )
 texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 1024, 1024 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Card4"]
 position = Vector2( -673.933, -293.014 )

@@ -8,8 +8,8 @@ var click_enabled
 func _ready():
 	click_enabled = true
 	card_name = "Empty"
-	card_face = preload("res://sprites/dandelion-flower.png")
-	card_back = preload("res://sprites/dandelion-flower.png")
+	card_face = preload("res://sprites/image0.jpeg")
+	card_back = preload("res://sprites/image0.jpeg")
 	get_node("Sprite").texture = card_back
 	pass
 
