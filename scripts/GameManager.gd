@@ -30,9 +30,9 @@ func _ready():
 	
 	default_image = preload("res://sprites/dandelion-flower.png")
 	
-	image1 = preload("res://pictures/pic-001.png")
+	image1 = preload("res://pictures/pic_001.png")
 	name_image1 = "Tree"
-	image2 = preload("res://pictures/pic-002.png")
+	image2 = preload("res://pictures/pic_002.png")
 	name_image2 = "Desert"
 	randomize()
 	init = false
